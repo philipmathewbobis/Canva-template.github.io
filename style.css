@@ -402,8 +402,8 @@ body {
     }
 
     .main {
-        width: 75%;
-        height: 100vh;
+        width: auto;
+        height: 95dvh;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
