@@ -400,12 +400,4 @@ body {
         width: 200px;
         height: 200px;
     }
-
-    .main {
-        width: auto;
-        height: 95dvh;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
 }
