@@ -104,8 +104,8 @@ body {
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 
@@ -161,7 +161,7 @@ body {
 
 .content {
     width: auto;
-    height: 100%;
+    height: auto;
     display: grid;
     grid-template-rows: repeat(6, 1fr);
     padding: 0 0 0 40px;
@@ -205,8 +205,8 @@ body {
         overflow-x: hidden;
     }
     .main {
-        width: 87%;
-        height: 100%;
+        width: auto;
+        height: auto;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
@@ -254,6 +254,7 @@ body {
 
     .image-container {
         border-radius: 12px;
+        
     }
 }
  
@@ -406,9 +407,10 @@ body {
     }
 
     .icon {
+        max-width: 100%;
         position: relative;
-        top: 12px;
-        left: 25em;
+        top: auto;
+        left: 30rem;
     }
 }
 
@@ -501,7 +503,7 @@ body {
 
 @media (width <= 400px) {
     .icon {
-        transform: translateX(-7rem);
+        transform: translateX(-8rem);
     }
     
     .image-container {
